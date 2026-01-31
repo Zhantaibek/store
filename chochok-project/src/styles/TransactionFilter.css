@@ -1,0 +1,13 @@
+.transaction-filter {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.transaction-filter select,
+.transaction-filter input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+}

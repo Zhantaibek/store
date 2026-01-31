@@ -1,0 +1,41 @@
+.finance-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.summary-card {
+  padding: 16px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-2px);
+}
+
+.summary-card h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.summary-card p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.summary-card.income p {
+  color: #16a34a;
+}
+
+.summary-card.expense p {
+  color: #dc2626;
+}
+
+.summary-card.balance p {
+  color: #2563eb;
+}
